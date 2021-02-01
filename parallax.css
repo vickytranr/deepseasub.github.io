@@ -1,8 +1,8 @@
-body, html {
+body {
     height: 100%;
-  }
+}
   
-  .parallax {
+.parallax {
     background-image: url('test.png');
   
     height: 100%; 
@@ -11,4 +11,8 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
+p {
+    height:30px;
+    font-size:20px
+}
