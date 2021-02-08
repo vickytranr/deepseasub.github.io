@@ -27,7 +27,7 @@ function animationLoop(){
     ctx.fillRect(0,0, canvas.width, canvas.height);
     for(var i = 0; i<rectangles.length; i++){
         rect(rectangles[i]);
-        forward(rectangles[i]);
+        forward(rectangles[i],7);
         turn(rectangles[i], 4);
         
     }
