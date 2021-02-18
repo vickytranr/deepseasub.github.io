@@ -11,10 +11,28 @@
         <h3>
             <a href="index.html">HOME</a>
         </h3>
-        LEFT: <a href="control.html">CONTROL ROOM</a> <br>
-        RIGHT: <a href="stairTop.html">TOP STAIRWELL</a><br>
+        <h4>LEFT: <a href="control.html">CONTROL ROOM</a> <br>
+        RIGHT: <a href="stairTop.html">TOP STAIRWELL</a><br></h4>
+        <br>
+        <hr>
         also having some sort of map in the corner to help with navigation<br>
         written directions to important rooms
-        <!-- <script src=".js"></script> -->
+
+        <img id="map" src="map.png" width="500px">
+
+        <br>
+        <button onclick="control()">CONTROL ROOM</button>
+        <p id="controlButton"></p>
+
+        <button onclick="navigation()">NAVIGATION ROOM</button>
+        <p id="navButton"></p>
+
+        <button onclick="observation()">OBSERVATION DECK</button>
+        <p id="obsButton"></p>
+
+        <button onclick="communication()">COMMUNICATION ROOM</button>
+        <p id="commButton"></p>
+
+        <script src="navigation.js"></script>
     </body>
 </html>
