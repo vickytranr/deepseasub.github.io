@@ -3,7 +3,7 @@ h1{
     float: right;
     margin-right: 80px;
     line-height: 200px;
-    position: relative;
+    position: sticky;
     top: -70px;
     left: 70px;
     /* top: 1000px; */
@@ -47,7 +47,7 @@ h4{
 #intro{
   float:right;
   margin-right: 100px;
-  position: relative;
+  position:sticky;
   top: 260px;
   left: 950px;
   font-size: 60px;
@@ -91,7 +91,7 @@ a:link {
     margin:auto;
   }
   #map {
-    position: absolute;
+    position:static;
     left: 1066px;
     top: 270px;
   }
