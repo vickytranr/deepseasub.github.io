@@ -91,9 +91,9 @@ a:link {
     margin:auto;
   }
   #map {
-    position:static;
-    left: 1066px;
-    top: 270px;
+    position:absolute;
+    left: 950px;
+    top: 300px;
   }
   button {
     background-color: rgb(30, 130, 155);
@@ -105,4 +105,9 @@ a:link {
     font-size: 14px;
     margin: 30px 20px;
     cursor: pointer;
+  }
+
+
+  #commcon{
+    float:right;
   }

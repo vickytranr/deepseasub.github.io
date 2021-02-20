@@ -2,8 +2,8 @@ console.log("research log");
 
 var canvas;
 var ctx;
-var w = 1300;
-var h = 550;
+var w = 1500;
+var h = 600;
 var rectangles = [];
 document.querySelector("#myCanvas").onmousemove = move;
 
@@ -16,15 +16,15 @@ animationLoop();
 
 
 // GRADIENT
-var grd = ctx.createLinearGradient(10,10, canvas.width, canvas.height);
-grd.addColorStop(0,"royalblue");
-grd.addColorStop(1,"darkblue");
+// var grd = ctx.createLinearGradient(10,10, canvas.width, canvas.height);
+// grd.addColorStop(0,"royalblue");
+// grd.addColorStop(1,"darkblue");
 
 
 function animationLoop(){
     clear();
-    ctx.fillStyle = grd;
-    ctx.fillRect(0,0, canvas.width, canvas.height);
+    // ctx.fillStyle = grd;
+    // ctx.fillRect(0,0, canvas.width, canvas.height);
     for(var i = 0; i<rectangles.length; i++){
         rect(rectangles[i]);
         forward(rectangles[i],7);
@@ -118,7 +118,7 @@ function rect(o){
     turn(o,90);
     forward(o,o.h);
     ctx.lineTo(o.x,o.y);
-    ctx.fillStyle = "hsla("+o.c+",100%,30%,"+o.a+")";
+    ctx.fillStyle = "hsla("+o.c+",100%,70%,"+o.a+")";
     ctx.fill();
 
     o.x = x;
@@ -146,7 +146,7 @@ function setUpCanvas(){
     ctx = canvas.getContext("2d");
     canvas.width = w;
     canvas.height = h;
-    canvas.style.border = "50px solid lightsteelblue";
+    // canvas.style.border = "50px solid lightsteelblue";
     // ctx.fillStyle = "lightslategrey";
-    ctx.fillRect(0,0, canvas.width, canvas.height);
+    // ctx.fillRect(0,0, canvas.width, canvas.height);
 }

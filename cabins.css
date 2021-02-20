@@ -1,0 +1,195 @@
+h2{
+    float: right;
+    font-size: 100px;
+    line-height: 120px;
+    text-align: right;
+    margin-right: 100px;
+    background-image: url('bubblegif.gif');
+    background-clip: unset;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h4{
+  margin-left: 10px;
+}
+body{
+    background-color: rgb(18, 18, 26);
+    margin-left: 30px;
+    line-height: 30px;
+    color: lightblue;
+    top: 100px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* background-image: url('bubblegif.gif'); */
+    /* url('submarinWINDOW\ copy.png'),
+    /* linear-gradient(to bottom, rgba(154, 218, 255, 0.438), rgba(123, 255, 237, 0.73)), */
+    /* url('bubbles\ copy.jpg');
+    background-size: cover; */
+}
+a:link {
+    color:rgb(51, 214, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color:rgb(51, 214, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color:rgb(255, 196, 0);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color:rgb(255, 196, 0);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  button {
+    background-color: rgb(30, 130, 155);
+    border: none;
+    color: white;
+    padding: 9px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin: 30px 20px;
+    cursor: pointer;
+  }
+
+  /* CSS SHAPES */
+
+#lid {
+    position:absolute;
+    width: 200px;
+    height: 60px;
+    background: rgb(205, 243, 255);
+    border-radius: 200px / 50px;
+    top: 470px;
+    left: 235px;
+    z-index: 4;
+}
+#water {
+    position:absolute;
+    width: 270px;
+    height: 270px;
+    background: rgb(164, 234, 255);
+    border-radius: 50%;
+    top: 500px;
+    left: 200px;
+    z-index: 3;
+}
+#tank {
+    position:absolute;
+    width: 300px;
+    height: 300px;
+    background: rgb(205, 243, 255);
+    border-radius: 50%;
+    top:485px;
+    left: 185px;
+    z-index: 2;
+  }
+
+#body{
+    position:absolute;
+    width: 70px;
+    height: 30px;
+    background: rgb(235, 164, 34);
+    border-radius: 200px / 100px;
+    top: 600px;
+    left:300px;
+    z-index: 5;
+}
+#eye{
+    position:absolute;
+    z-index: 8;
+    width:5px;
+    height:5px;
+    border-radius: 100px;
+    background: rgb(40, 41, 41);
+    top:612px;
+    left:325px;
+}
+#tail1{
+    position:absolute;
+    width: 30px;
+    height: 13px;
+    transform: skew(50deg);
+    background: rgb(235, 164, 34);
+    top:617px;
+    left:367px;
+    z-index: 6;
+    
+}
+#tail2{
+    position:absolute;
+    width: 30px;
+    height: 17px;
+    transform: skew(130deg);
+    background: rgb(235, 164, 34);
+    top:600px;
+    left:367px;
+    z-index: 7;
+}
+
+#bubble1{
+    position:absolute;
+    width: 30px;
+    height: 30px;
+    background: rgb(205, 243, 255);
+    border-radius: 100px;
+    top: 550px;
+    left: 300px;
+    z-index: 8;
+}
+#bubble2{
+    position:absolute;
+    width: 10px;
+    height: 10px;
+    background: rgb(205, 243, 255);
+    border-radius: 100px;
+    top: 600px;
+    left: 280px;
+    z-index: 9;
+}
+#bubble3{
+    position:absolute;
+    width: 20px;
+    height: 20px;
+    background: rgb(205, 243, 255);
+    border-radius: 100px;
+    top: 400px;
+    left: 300px;
+    z-index: 10;
+}
+#bubble4{
+    position:absolute;
+    width: 10px;
+    height: 10px;
+    background: rgb(205, 243, 255);
+    border-radius: 100px;
+    top: 300px;
+    left: 220px;
+    z-index: 9;
+}
+#bubble5{
+    position:absolute;
+    width: 10px;
+    height: 10px;
+    background: rgb(205, 243, 255);
+    border-radius: 100px;
+    top: 350px;
+    left: 380px;
+    z-index: 9;
+}
+#bubble6{
+    position:absolute;
+    width: 30px;
+    height: 30px;
+    background: rgb(205, 243, 255);
+    border-radius: 100px;
+    top: 280px;
+    left: 280px;
+    z-index: 9;
+}
