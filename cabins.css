@@ -202,3 +202,7 @@ a:link {
     left: 280px;
     z-index: 9;
 }
+#clue {
+  position: absolute;
+  top: 1080px;
+}

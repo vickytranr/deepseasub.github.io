@@ -114,3 +114,7 @@ a:link {
   #commcon{
     float:right;
   }
+  #clue {
+    position: absolute;
+    top: 1080px;
+}

@@ -154,3 +154,7 @@ a:link {
     line-height: 40px;
     font-family: 'Times New Roman', Times, serif;
   }
+  #clue {
+    position: absolute;
+    top: 6700px;
+}
