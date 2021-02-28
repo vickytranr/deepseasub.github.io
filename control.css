@@ -109,8 +109,66 @@ a:link {
     margin: 30px 20px;
     cursor: pointer;
   }
-
-
-  #commcon{
-    float:right;
+  #wheel {
+      position:absolute;
+      left:650px;
+      top: 600px;
+      z-index:2;
   }
+  #console {
+      position:absolute;
+      left:800px;
+      top:680px;
+      z-index: 1;
+  }
+  #console2 {
+    position: absolute;
+    left:1430px;
+    top:680px;
+  }
+  #console3 {
+      position: absolute;
+      left:800px;
+      top:1050px;
+}
+#console4 {
+  position: absolute;
+  left:1430px;
+  top:1050px;
+}
+#console5 {
+  position: absolute;
+  left:2760px;
+  top:1050px;
+}
+#console6 {
+  position: absolute;
+  left:2760px;
+  top:680px;
+}
+#console7 {
+  position: absolute;
+  left:3390px;
+  top:680px;
+}
+#console8 {
+  position: absolute;
+  left:3390px;
+  top:1050px;
+}
+#window {
+  position:absolute;
+  left:2100px;
+  top:750px;
+  z-index: 4;
+}
+#bubbles {
+  position: absolute;
+  object-fit: cover;
+  left:2230px;
+  top:870px;
+  z-index: 3;
+}
+#radio {
+  position: absolute;
+}
