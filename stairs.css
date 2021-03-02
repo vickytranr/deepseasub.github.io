@@ -62,23 +62,53 @@ a:link {
     top: 200px;
     z-index: 3;
   }
-#stairTop {
+.stairTop {
     position: absolute;
     top: 280px;
     left: 580px;
-    width: 400px;
-
-transform: rotate(180deg);
-display: none;
+  z-index: 10;
 }
-#stairTop:hover {
+.stairTopHover{
   position: absolute;
   top: 280px;
   left: 580px;
-  width: 400px;
-
-  display: block;
+  z-index: 9;
 }
+.stairTop:hover{
+  position: absolute;
+  top: 280px;
+  left: 580px;
+  z-index: 11;
+  opacity: 0;
+  transition: .2s;
+}
+
+.stairBottom {
+  position: absolute;
+  top: 315px;
+  left: 200px;
+z-index: 10;
+}
+.stairBottomHover{
+position: absolute;
+top: 315px;
+left: 200px;
+z-index: 9;
+}
+.stairBottom:hover{
+position: absolute;
+top: 315px;
+left: 200px;
+z-index: 11;
+opacity: 0;
+transition: .2s;
+}
+#stairTop {
+  position: absolute;
+  top: 280px;
+  left: 580px;
+}
+
 #stairBottom {
     position: absolute;
     top: 315px;

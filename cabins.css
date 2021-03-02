@@ -75,7 +75,7 @@ a:link {
     height: 60px;
     background: rgb(205, 243, 255);
     border-radius: 200px / 50px;
-    top: 470px;
+    top: 970px;
     left: 235px;
     z-index: 4;
 }
@@ -85,7 +85,7 @@ a:link {
     height: 270px;
     background: rgb(164, 234, 255);
     border-radius: 50%;
-    top: 500px;
+    top: 1000px;
     left: 200px;
     z-index: 3;
 }
@@ -95,7 +95,7 @@ a:link {
     height: 300px;
     background: rgb(205, 243, 255);
     border-radius: 50%;
-    top:485px;
+    top:985px;
     left: 185px;
     z-index: 2;
   }
@@ -106,7 +106,7 @@ a:link {
     height: 30px;
     background: rgb(235, 164, 34);
     border-radius: 200px / 100px;
-    top: 600px;
+    top: 1100px;
     left:300px;
     z-index: 5;
 }
@@ -117,7 +117,7 @@ a:link {
     height:5px;
     border-radius: 100px;
     background: rgb(40, 41, 41);
-    top:612px;
+    top:1112px;
     left:325px;
 }
 #tail1{
@@ -126,7 +126,7 @@ a:link {
     height: 13px;
     transform: skew(50deg);
     background: rgb(235, 164, 34);
-    top:617px;
+    top:1117px;
     left:367px;
     z-index: 6;
     
@@ -137,7 +137,7 @@ a:link {
     height: 17px;
     transform: skew(130deg);
     background: rgb(235, 164, 34);
-    top:600px;
+    top:1100px;
     left:367px;
     z-index: 7;
 }
@@ -148,7 +148,7 @@ a:link {
     height: 30px;
     background: rgb(205, 243, 255);
     border-radius: 100px;
-    top: 550px;
+    top: 1050px;
     left: 300px;
     z-index: 8;
 }
@@ -158,7 +158,7 @@ a:link {
     height: 10px;
     background: rgb(205, 243, 255);
     border-radius: 100px;
-    top: 600px;
+    top: 1100px;
     left: 280px;
     z-index: 9;
 }
@@ -168,7 +168,7 @@ a:link {
     height: 20px;
     background: rgb(205, 243, 255);
     border-radius: 100px;
-    top: 400px;
+    top: 900px;
     left: 300px;
     z-index: 10;
 }
@@ -178,7 +178,7 @@ a:link {
     height: 10px;
     background: rgb(205, 243, 255);
     border-radius: 100px;
-    top: 300px;
+    top: 800px;
     left: 220px;
     z-index: 9;
 }
@@ -188,7 +188,7 @@ a:link {
     height: 10px;
     background: rgb(205, 243, 255);
     border-radius: 100px;
-    top: 350px;
+    top: 850px;
     left: 380px;
     z-index: 9;
 }
@@ -198,13 +198,19 @@ a:link {
     height: 30px;
     background: rgb(205, 243, 255);
     border-radius: 100px;
-    top: 280px;
+    top: 780px;
     left: 280px;
     z-index: 9;
 }
+
+#comment {
+  position:absolute;
+  top:600px;
+}
+
 #clue {
   position: absolute;
-  top: 1080px;
+  top: 1380px;
 }
 #cot1 {
   position: absolute;
