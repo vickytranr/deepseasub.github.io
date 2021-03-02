@@ -206,3 +206,33 @@ a:link {
   position: absolute;
   top: 1080px;
 }
+#cot1 {
+  position: absolute;
+  top: 250px;
+  left: 500px;
+}
+#cot2 {
+  position: absolute;
+  top: 600px;
+  left: 500px;
+}
+#cot3 {
+  position: absolute;
+  top: 950px;
+  left: 500px;
+}
+#cot4 {
+  position: absolute;
+  top: 250px;
+  left: 1100px;
+}
+#cot5 {
+  position: absolute;
+  top: 600px;
+  left: 1100px;
+}
+#cot6 {
+  position: absolute;
+  top: 950px;
+  left: 1100px;
+}
