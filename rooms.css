@@ -201,5 +201,15 @@ a:link {
 }
 
 .button-container{
-  
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 400px);
+grid-template-rows: repeat(auto-fit, 300px);
+  gap: 10px;
+}
+
+.button-container > div {
+  text-align: right;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 400;
 }
