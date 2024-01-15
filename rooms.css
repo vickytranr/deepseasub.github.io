@@ -22,12 +22,18 @@ h4{
   font-size: 20px;
 }
 
-p {
+p:not(.nav-txt, .navroom-txt) {
     max-width: 445px;
+    color:aliceblue;
+}
+
+.nav-txt {
+  color:aliceblue;
 }
 
 .p-container{
     padding-left:250px;
+    padding-top:65px;
 }
 .nav-frame {
     display: block;
@@ -41,6 +47,7 @@ p {
   font-weight: 400;
   font-style: normal;
 }
+
 #intro{
   float:right;
   margin-right: 100px;
@@ -78,12 +85,12 @@ a:link {
   a:hover {
     color:rgb(255, 196, 0);
     background-color: transparent;
-    text-decoration: underline;
+    text-decoration: none;
   }
   a:active {
     color:rgb(255, 196, 0);
     background-color: transparent;
-    text-decoration: underline;
+    text-decoration: none;
   }
   #confession {
     margin:auto;
@@ -91,7 +98,7 @@ a:link {
   #map {
     position:absolute;
     left: 650px;
-    top: 180px;
+    top: 200px;
   }
   button {
     background-color: rgb(30, 130, 155);
@@ -108,13 +115,12 @@ a:link {
       position:absolute;
       left:50px;
       top: 700px;
-      z-index:2;
+      z-index:1;
   }
   #console {
       position:absolute;
       left:200px;
       top:780px;
-      z-index: 1;
   }
   #console2 {
     position: absolute;
@@ -168,4 +174,32 @@ a:link {
   position: absolute;
   left: 30px;
   top: 1000;
+}
+.bottom-nav{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding:10px;
+  background-color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  z-index:10;
+  font-family: "rift", sans-serif;
+  font-weight: 400;
+  font-style:normal;
+  font-size: 30px;
+}
+
+.bottom-nav a{
+  padding: 10px;
+}
+
+.navroom-txt, #controlButton, #navButton, #obsButton, #commButton{
+  width:500px;
+}
+
+.button-container{
+  
 }

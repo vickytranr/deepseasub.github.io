@@ -2,22 +2,32 @@
 <html>
 
     <head>
- <link rel="stylesheet" type = "text/css" href="navigation.css">
+        <link rel="stylesheet" href="https://use.typekit.net/sex1fci.css">
+ <link rel="stylesheet" type = "text/css" href="rooms.css">
     </head>
     <body>
         <h2>NAVIGATION ROOM
 
         </h2>
-        <h3>
-            <a href="index.html">HOME</a>
-        </h3>
-        <br>
-        <h4>LEFT: <a href="control.html">CONTROL ROOM</a> <br>
-        RIGHT: <a href="stairTop.html">TOP STAIRWELL</a><br></h4>
-        <hr>
+
+        <p class="navroom-txt">
         Welcome to the NAVIGATION ROOM! <br>
         Read up on some of the main things you can do in the other parts of the ship, but feel to explore and see what else goes on around here!
+    </p>
 
+    <div button-container>
+    <button onclick="control()">CONTROL ROOM</button>
+    <p id="controlButton"></p>
+
+    <button onclick="navigation()">NAVIGATION ROOM</button>
+    <p id="navButton"></p>
+
+    <button onclick="observation()">OBSERVATION DECK</button>
+    <p id="obsButton"></p>
+
+    <button onclick="communication()">COMMUNICATION ROOM</button>
+    <p id="commButton"></p>
+</div> 
         <img id="map" src="navmap.png" width="900px">
         <img id="screen" src="navcon.png" width="900px">
         <img id="console2" src="console2.png" width="500px">
@@ -27,17 +37,11 @@
         <img id="console6" src="console6.png" width="500px">
         <br>
 
-        <button onclick="control()">CONTROL ROOM</button>
-        <p id="controlButton"></p>
 
-        <button onclick="navigation()">NAVIGATION ROOM</button>
-        <p id="navButton"></p>
-
-        <button onclick="observation()">OBSERVATION DECK</button>
-        <p id="obsButton"></p>
-
-        <button onclick="communication()">COMMUNICATION ROOM</button>
-        <p id="commButton"></p>
+        <div class="bottom-nav">
+            <p class="nav-txt"><a href="control.html">CONTROL</a> ||
+        <a href="stairTop.html">TOP STAIRWELL</a></p>
+        </div>
 
         <script src="navigation.js"></script>
     </body>
