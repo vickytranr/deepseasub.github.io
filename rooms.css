@@ -1,34 +1,10 @@
-h1{
-    font-size: 175px;
-    float: right;
-    margin-right: 80px;
-    line-height: 200px;
-    position: absolute;
-    top: -70px;
-    left: 70px;
-    /* top: 1000px; */
-    /* background: -webkit-linear-gradient(rgb(10, 80, 104), rgb(15, 41, 112)); */
-    background-image: url('bubblegif.gif');
-    background-clip: unset;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family:Arial, Helvetica, sans-serif;
-}
-/* .rectangle {
-  height: 500px;
-  width: 400px;
-  position: absolute;
-  left: 1000px;
-  top: 0px;
-  z-index: -1;
-  background-color: rgb(28, 63, 71);
-} */
+
 h2{
-    float: right;
+    display: block;
+    margin: auto;
+text-align: center;
     font-size: 100px;
     line-height: 120px;
-    text-align: right;
-    margin-right: 100px;
     background-image: url('bubblegif.gif');
     background-clip: unset;
     -webkit-background-clip: text;
@@ -44,8 +20,26 @@ h3{
 }
 h4{
   font-size: 20px;
-  line-height: 30px;
-  margin-left: 10px;
+}
+
+p {
+    max-width: 445px;
+}
+
+.p-container{
+    padding-left:250px;
+}
+.nav-frame {
+    display: block;
+    text-align: right;
+    margin: auto;
+    padding: 20px; 
+    width: 600px;
+    height: 10px;  
+    font-size: 30px;
+    font-family: "rift", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 #intro{
   float:right;
@@ -59,7 +53,8 @@ h4{
 }
 body{
     background-color: rgb(18, 18, 26);
-    margin-left: 30px;
+    margin-left: 50px;
+    margin-top: 50px;
     line-height: 30px;
     color: lightblue;
     top: 100px;
@@ -95,8 +90,8 @@ a:link {
   }
   #map {
     position:absolute;
-    left: 850px;
-    top: 200px;
+    left: 650px;
+    top: 180px;
   }
   button {
     background-color: rgb(30, 130, 155);
@@ -111,66 +106,66 @@ a:link {
   }
   #wheel {
       position:absolute;
-      left:650px;
-      top: 600px;
+      left:50px;
+      top: 700px;
       z-index:2;
   }
   #console {
       position:absolute;
-      left:800px;
-      top:680px;
+      left:200px;
+      top:780px;
       z-index: 1;
   }
   #console2 {
     position: absolute;
-    left:1430px;
-    top:680px;
+    left:830px;
+    top:780px;
   }
   #console3 {
       position: absolute;
-      left:800px;
-      top:1050px;
+      left:200px;
+      top:1150px;
 }
 #console4 {
   position: absolute;
-  left:1430px;
-  top:1050px;
+  left:830px;
+  top:1150px;
 }
 #console5 {
   position: absolute;
-  left:2760px;
-  top:1050px;
+  left:2160px;
+  top:1150px;
 }
 #console6 {
   position: absolute;
-  left:2760px;
-  top:680px;
+  left:2160px;
+  top:780px;
 }
 #console7 {
   position: absolute;
-  left:3390px;
-  top:680px;
+  left:2790px;
+  top:780px;
 }
 #console8 {
   position: absolute;
-  left:3390px;
-  top:1050px;
+  left:2790px;
+  top:1150px;
 }
 #window {
   position:absolute;
-  left:2100px;
-  top:750px;
+  left:1500px;
+  top:850px;
   z-index: 4;
 }
 #bubbles {
   position: absolute;
   object-fit: cover;
-  left:2230px;
-  top:870px;
+  left:1630px;
+  top:970px;
   z-index: 3;
 }
 #radio {
   position: absolute;
-  left: 630px;
-  top: 900;
+  left: 30px;
+  top: 1000;
 }
