@@ -156,6 +156,7 @@ a:link {
   position: absolute;
   left:2790px;
   top:1150px;
+  padding-bottom:80px;
 }
 #window {
   position:absolute;
@@ -180,9 +181,9 @@ a:link {
   left: 0;
   bottom: 0;
   width: 100%;
+  height:75px;
   color: rgb(0, 0, 0);
   text-align: center;
-  padding:10px;
   background-color: rgb(0, 0, 0);
   text-transform: uppercase;
   z-index:10;
@@ -190,26 +191,74 @@ a:link {
   font-weight: 400;
   font-style:normal;
   font-size: 30px;
+
 }
 
 .bottom-nav a{
   padding: 10px;
 }
 
-.navroom-txt, #controlButton, #navButton, #obsButton, #commButton{
+.navroom-txt {
+  padding-top:110px;
+  padding-left:220px;
+  width:500px;
+}
+
+#controlButton, #navButton, #obsButton, #commButton{
+  padding-left:20px;
   width:500px;
 }
 
 .button-container{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 400px);
-grid-template-rows: repeat(auto-fit, 300px);
-  gap: 10px;
+  padding-left:200px;
 }
 
-.button-container > div {
-  text-align: right;
-  padding: 10px;
-  font-size: 20px;
-  font-weight: 400;
+/* NAV OBJECTS */
+
+#mapb{
+  position:absolute;
+top:200px;
+left:800px;
+}
+
+#screenb{
+  position:absolute;
+top:200px;
+left:1700px;
+padding-right:50px;
+}
+
+#console2b{
+  position:absolute;
+top:750px;
+left:1000px;
+}
+#console3b{
+  position:absolute;
+  top:750px;
+  left:1550px;
+}
+#console4b{
+  position:absolute;
+  top:1070px;
+  left:1000px;
+}
+#console5b{
+  position:absolute;
+  top:1070px;
+  left:1550px;
+}
+#console6b{
+  position:absolute;
+  top:1070px;
+  left:2100px;
+  padding-right:50px;
+  padding-bottom:80px;
+}
+
+#nav-blurb{
+  width:500px;
+  position: absolute;
+  top:750px;
+  left:2100px;
 }
