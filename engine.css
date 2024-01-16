@@ -14,6 +14,10 @@ html {
     margin-left: -30px;
     margin-top: 100px;
 }
+
+p{
+  margin-left: 100px;
+}
 .title {
 
     background-attachment: fixed;
@@ -26,16 +30,16 @@ html {
     margin-left: 100px;
 }
 h2{
-    float: right;
-    font-size: 100px;
-    line-height: 120px;
-    text-align: right;
-    margin-right: 100px;
-    background-image: url('bubblegif.gif');
-    background-clip: unset;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: block;
+  margin: auto;
+text-align: center;
+  font-size: 100px;
+  line-height: 120px;
+  background-image: url('bubblegif.gif');
+  background-clip: unset;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 h3{
     font-size: 15px;
@@ -157,4 +161,59 @@ a:link {
   #clue {
     position: absolute;
     top: 6700px;
+    padding-bottom:80px;
+}
+
+.bottom-nav{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height:75px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  z-index:15;
+  font-family: "rift", sans-serif;
+  font-weight: 400;
+  font-style:normal;
+  font-size: 30px;
+
+}
+
+.bottom-nav a{
+  padding: 10px;
+}
+
+.nav-txt {
+  color:aliceblue;
+}
+
+.nav-frame {
+    display: block;
+    text-align: right;
+    margin: auto;
+    padding: 20px; 
+    width: 600px;
+    height: 10px;  
+    font-size: 30px;
+    font-family: "rift", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body{
+  background-color: rgb(18, 18, 26);
+  margin-left: 50px;
+  margin-top: 50px;
+  line-height: 30px;
+  color: lightblue;
+  top: 100px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /* background-image: url('bubblegif.gif'); */
+  /* url('submarinWINDOW\ copy.png'),
+  /* linear-gradient(to bottom, rgba(154, 218, 255, 0.438), rgba(123, 255, 237, 0.73)), */
+  /* url('bubbles\ copy.jpg');
+  background-size: cover; */
 }

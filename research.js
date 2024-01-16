@@ -3,7 +3,7 @@ console.log("research log");
 var canvas;
 var ctx;
 var w = 1500;
-var h = 600;
+var h = 1200;
 var rectangles = [];
 document.querySelector("#myCanvas").onmousemove = move;
 
@@ -45,7 +45,7 @@ function addRectangles(a,x,y){
         "y": y,
         "w": 30,
         "h": 5+rand(5),
-        "c": 220+rand(30),
+        "c": 20+rand(30),
         "a": 0.8+rand(0.2),
         "d": rand(10),
         "angle": 50+rand(150),
