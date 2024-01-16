@@ -292,11 +292,11 @@ left:1000px;
 #cot2 {
   position: absolute;
   top: 600px;
-  left: 800px;
+  left: 820px;
 }
 #cot3 {
   position: absolute;
-  top: 950px;
+  top: 940px;
   left: 800px;
 }
 #cot4 {
@@ -306,14 +306,27 @@ left:1000px;
 }
 #cot5 {
   position: absolute;
-  top: 600px;
-  left: 1450px;
+  top: 580px;
+  left: 1430px;
 }
 #cot6 {
   position: absolute;
-  top: 950px;
-  left: 1450px;
+  top: 970px;
+  left: 1440px;
   padding-right:100px;
+}
+#cat {
+  position: absolute;
+  top: 1300px;
+  left: 2150px;
+  padding-right:100px;
+}
+.cat-desc{
+  position: absolute;
+  top: 1330px;
+  left: 1750px;
+
+  width:500px;
 }
 
 #myCanvas{
