@@ -208,9 +208,14 @@ a:link {
   width:500px;
 }
 
-#controlButton, #navButton, #obsButton, #commButton{
+#controlButton, #navButton, #obsButton, #commButton, #resButton, #stgeButton, #cabButton, #engButton{
   padding-left:20px;
+  margin-top:-8px;
   width:500px;
+}
+
+#engButton {
+  padding-bottom:100px;
 }
 
 .button-container{

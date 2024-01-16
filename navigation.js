@@ -13,3 +13,19 @@ function observation() {
 function communication() {
     document.getElementById("commButton").innerHTML = "Anonymously let a message out to the sea! Our radios allow for a short message to be projected into the sea,<br>and they are all manually and periodically updated.";
 }
+
+function research() {
+    document.getElementById("resButton").innerHTML = "This research submarine focuses on one species of fish which can be interacted with in our research lab. They're oddly rectangular, but are extremely mobile.";
+}
+
+function storage() {
+    document.getElementById("stgeButton").innerHTML = "We keep lots of things here! Equipment, extra supplies, fancy words...";
+}
+
+function cabins() {
+    document.getElementById("cabButton").innerHTML = "Our crew rests in the cabins, but there's always work to get done so its rare to see anyone inside. You're always welcome to a nap though!";
+}
+
+function engine() {
+    document.getElementById("engButton").innerHTML = "Knowledge is power, and our engine runs hot, 24/7.";
+}
