@@ -262,3 +262,45 @@ left:1000px;
   top:750px;
   left:2100px;
 }
+
+
+
+#comment {
+  position:absolute;
+  top:600px;
+}
+
+#clue {
+  position: absolute;
+  top: 1380px;
+}
+#cot1 {
+  position: absolute;
+  top: 250px;
+  left: 800px;
+}
+#cot2 {
+  position: absolute;
+  top: 600px;
+  left: 800px;
+}
+#cot3 {
+  position: absolute;
+  top: 950px;
+  left: 800px;
+}
+#cot4 {
+  position: absolute;
+  top: 250px;
+  left: 1450px;
+}
+#cot5 {
+  position: absolute;
+  top: 600px;
+  left: 1450px;
+}
+#cot6 {
+  position: absolute;
+  top: 950px;
+  left: 1450px;
+}
