@@ -203,3 +203,15 @@ margin:auto;
   font-weight: 400;
   font-style: normal;
 }
+
+.dog-txt{
+  position: absolute;
+  top: 900px;
+  left: 2300px;
+  width:300px;
+}
+#dog{
+  width:230px;
+  margin-left:2600px;
+  margin-top:700px;
+}

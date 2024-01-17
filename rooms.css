@@ -381,3 +381,8 @@ max-width: 900px;
 .p-comm{
   margin-left:100px;
 }
+
+.exp{
+  display: block;
+  margin: auto;
+}
